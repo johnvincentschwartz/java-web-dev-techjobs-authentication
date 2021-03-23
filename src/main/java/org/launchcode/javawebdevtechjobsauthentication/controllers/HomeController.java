@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.Optional;
 
-/**
- * Created by LaunchCode
- */
 @Controller
 public class HomeController {
 
@@ -56,6 +53,5 @@ public class HomeController {
             return "redirect:/";
         }
     }
-
 
 }
